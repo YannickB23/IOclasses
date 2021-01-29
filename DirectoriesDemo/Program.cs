@@ -56,13 +56,38 @@ namespace DirectoriesDemo
             #endregion
 
             #region Sample 3
-            string path = @"C:\Temp";
-            string[] directories = Directory.GetDirectories(path, "*", SearchOption.AllDirectories);
-            foreach (var item in directories)
-            {
-                Console.WriteLine(item);
-            }
+            //string path = @"C:\Temp";
+            //string[] directories = Directory.GetDirectories(path, "*", SearchOption.AllDirectories);
+            ////string[] directories = Directory.GetDirectories(path, "*", SearchOption.TopDirectoryOnly);
+            //foreach (var item in directories)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
+
+            #region Sample 4
+            //string path = @"C:\Temp\sub3";
+            //DirectoryInfo dir = new DirectoryInfo(@"C:\Temp\sub1");
+            ////DirectoryInfo dir = new DirectoryInfo(@"C:\Temp");
+            //Console.WriteLine($"Fullname: {dir.FullName}");
+            //Console.WriteLine($"Name: {dir.Name}");
+            //Console.WriteLine($"Parent: {dir.Parent}");
+            //Console.WriteLine($"Root: {dir.Root}");
+            //Console.WriteLine($"Creation time: {dir.CreationTime}");
+            //Console.WriteLine($"Attributes: {dir.Attributes}");
+            //Console.WriteLine($"Last acces time: {dir.LastAccessTime}");
+            //try
+            //{
+            //Directory.Delete(path, false);
+            //bool directoryExists = Directory.Exists(path);
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine($"***\n{e.Message}***");
+            //}
+            #endregion
+
+            Console.ReadLine();
         }
     }
 }
