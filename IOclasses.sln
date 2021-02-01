@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathDemo", "PathDemo\PathDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleReadWrite", "SimpleReadWrite\SimpleReadWrite.csproj", "{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_ProgramToReadFromFileInASCIIFormat", "1_ProgramToReadFromFileInASCIIFormat\1_ProgramToReadFromFileInASCIIFormat.csproj", "{6901A102-BEB8-470F-85BE-7AD7572F5F71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
