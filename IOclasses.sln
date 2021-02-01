@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesDemo", "FilesDemo\File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathDemo", "PathDemo\PathDemo.csproj", "{17CA3AC2-6771-4391-887A-C11013EEF916}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleReadWrite", "SimpleReadWrite\SimpleReadWrite.csproj", "{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{17CA3AC2-6771-4391-887A-C11013EEF916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17CA3AC2-6771-4391-887A-C11013EEF916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17CA3AC2-6771-4391-887A-C11013EEF916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C22A4E-57EC-4EB7-8C7D-AFE08A52DAF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
