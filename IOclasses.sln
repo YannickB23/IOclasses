@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleReadWrite", "SimpleRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_ProgramToReadFromFileInASCIIFormat", "1_ProgramToReadFromFileInASCIIFormat\1_ProgramToReadFromFileInASCIIFormat.csproj", "{6901A102-BEB8-470F-85BE-7AD7572F5F71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ProgramToReadFromFileAnyEncoding", "2_ProgramToReadFromFileAnyEncoding\2_ProgramToReadFromFileAnyEncoding.csproj", "{D285DF84-EF79-4F0A-8FAF-797DF1D9A78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ProgramToWriteToFileInASCIIFormat", "3_ProgramToWriteToFileInASCIIFormat\3_ProgramToWriteToFileInASCIIFormat.csproj", "{37292606-C955-416A-97D4-C5070F03F516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ProgramToWriteToFileInUnicode", "4_ProgramToWriteToFileInUnicode\4_ProgramToWriteToFileInUnicode.csproj", "{1CE1CD3D-157D-406F-A8CB-148962CAAD65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +51,18 @@ Global
 		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6901A102-BEB8-470F-85BE-7AD7572F5F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D285DF84-EF79-4F0A-8FAF-797DF1D9A78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D285DF84-EF79-4F0A-8FAF-797DF1D9A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D285DF84-EF79-4F0A-8FAF-797DF1D9A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D285DF84-EF79-4F0A-8FAF-797DF1D9A78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37292606-C955-416A-97D4-C5070F03F516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37292606-C955-416A-97D4-C5070F03F516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37292606-C955-416A-97D4-C5070F03F516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37292606-C955-416A-97D4-C5070F03F516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

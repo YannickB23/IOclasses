@@ -19,6 +19,8 @@ namespace _1_ProgramToReadFromFileInASCIIFormat
                 fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.None);
                 sr = new StreamReader(fs, Encoding.ASCII, true);
                 int count = 0;
+
+                #region read char per char
                 while (true)
                 {
                     int data = fs.ReadByte();
@@ -37,6 +39,7 @@ namespace _1_ProgramToReadFromFileInASCIIFormat
                     Console.Write((char)data);  //this works good with ASCII encoding
                 }
                 Console.WriteLine($"\n\nThere are {count} q's in the file.");
+                #endregion
             }
             catch (FileNotFoundException ex)
             {
