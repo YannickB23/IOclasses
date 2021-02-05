@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingDemo", "UsingDemo\Usin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialisationDemo", "SerialisationDemo\SerialisationDemo.csproj", "{A6DE175E-0C92-408B-BBE8-496195B30E53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsAndFileIO", "ObjectsAndFileIO\ObjectsAndFileIO.csproj", "{5C3E1F65-3F1C-4779-A9A9-397908E6A03D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{A6DE175E-0C92-408B-BBE8-496195B30E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6DE175E-0C92-408B-BBE8-496195B30E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6DE175E-0C92-408B-BBE8-496195B30E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3E1F65-3F1C-4779-A9A9-397908E6A03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3E1F65-3F1C-4779-A9A9-397908E6A03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3E1F65-3F1C-4779-A9A9-397908E6A03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3E1F65-3F1C-4779-A9A9-397908E6A03D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
