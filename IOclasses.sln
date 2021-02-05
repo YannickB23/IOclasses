@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ProgramToWriteToFileInASC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ProgramToWriteToFileInUnicode", "4_ProgramToWriteToFileInUnicode\4_ProgramToWriteToFileInUnicode.csproj", "{1CE1CD3D-157D-406F-A8CB-148962CAAD65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriterReader", "BinaryWriterReader\BinaryWriterReader.csproj", "{4F04D917-A8B3-45CD-8894-E11F677113A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingDemo", "UsingDemo\UsingDemo.csproj", "{019FF2C5-3C94-4883-AAB4-42E53031815D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CE1CD3D-157D-406F-A8CB-148962CAAD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F04D917-A8B3-45CD-8894-E11F677113A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F04D917-A8B3-45CD-8894-E11F677113A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F04D917-A8B3-45CD-8894-E11F677113A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F04D917-A8B3-45CD-8894-E11F677113A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019FF2C5-3C94-4883-AAB4-42E53031815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019FF2C5-3C94-4883-AAB4-42E53031815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019FF2C5-3C94-4883-AAB4-42E53031815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019FF2C5-3C94-4883-AAB4-42E53031815D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
