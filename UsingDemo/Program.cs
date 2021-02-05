@@ -13,7 +13,7 @@ namespace UsingDemo
         {
             #region Write to File with Using
 
-            //string strToBeWritten = "Hello World. Using statement!";
+            //string strToBeWritten = "Et malesuada fames ac turpis egestas sed.";
             //FileStream fs = new FileStream(@"C:\Temp\dummy.txt", FileMode.Create, FileAccess.Write);
             //using (StreamWriter sw = new StreamWriter(fs))
             //{
