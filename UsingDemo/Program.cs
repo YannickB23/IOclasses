@@ -40,10 +40,13 @@ namespace UsingDemo
             StreamWriter sw = new StreamWriter(fs);
             sw.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
             fs.Close();
-
-            FileStream fs1 = new FileStream(@"C:\Temp\dummy.txt", FileMode.Open);
+            ReadFile();
 
             #endregion
+        }
+        static void ReadFile()
+        {
+            FileStream fs1 = new FileStream(@"C:\Temp\dummy.txt", FileMode.Open);
         }
     }
 }
